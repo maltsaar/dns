@@ -1,0 +1,30 @@
+---
+'':
+  - ttl: 60
+    type: A
+    value: 70.34.203.42
+  - type: MX
+    values:
+      - exchange: mx01.mail.icloud.com.
+        preference: 10
+      - exchange: mx02.mail.icloud.com.
+        preference: 10
+  - type: TXT
+    values:
+      - apple-domain=XP5PD6gaC0zfJhmR
+      - v=spf1 include:icloud.com ~all
+www:
+  ttl: 60
+  type: CNAME
+  value: wavy.ws.
+ayanami:
+  ttl: 60
+  type: A
+  value: 95.211.186.220
+ibuki:
+  ttl: 60
+  type: CNAME
+  value: wavy.ws.
+sig1._domainkey:
+  type: CNAME
+  value: sig1.dkim.wavy.ws.at.icloudmailadmin.com.

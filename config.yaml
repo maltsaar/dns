@@ -1,0 +1,22 @@
+---
+manager:
+  include_meta: False
+  max_workers: 2
+
+providers:
+  zones:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./zones
+    enforce_order: False
+
+  cloudflare:
+    class: octodns_cloudflare.CloudflareProvider
+    email: env/CLOUDFLARE_EMAIL
+    token: env/CLOUDFLARE_TOKEN
+
+zones:
+  wavy.ws.:
+    sources:
+      - zones
+    targets:
+      - cloudflare
