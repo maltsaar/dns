@@ -13,10 +13,7 @@
     values:
       - apple-domain=XP5PD6gaC0zfJhmR
       - v=spf1 include:icloud.com ~all
-www:
-  ttl: 60
-  type: CNAME
-  value: wavy.ws.
+
 ayanami:
   ttl: 60
   type: A
