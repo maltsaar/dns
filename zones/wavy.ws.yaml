@@ -22,6 +22,10 @@ ibuki:
   ttl: 60
   type: CNAME
   value: wavy.ws.
+list:
+  ttl: 60
+  type: CNAME
+  value: wavy.ws.
 sig1._domainkey:
   type: CNAME
   value: sig1.dkim.wavy.ws.at.icloudmailadmin.com.
