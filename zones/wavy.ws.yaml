@@ -26,6 +26,10 @@ list:
   ttl: 60
   type: CNAME
   value: wavy.ws.
+auth:
+  ttl: 60
+  type: A
+  value: 70.34.203.42
 sig1._domainkey:
   type: CNAME
   value: sig1.dkim.wavy.ws.at.icloudmailadmin.com.
