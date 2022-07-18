@@ -34,7 +34,10 @@ ldap:
   ttl: 60
   type: A
   value: 70.34.203.42
-  
+nagisa:
+  ttl: 60
+  type: A
+  value: 70.34.220.201
 sig1._domainkey:
   type: CNAME
   value: sig1.dkim.wavy.ws.at.icloudmailadmin.com.
