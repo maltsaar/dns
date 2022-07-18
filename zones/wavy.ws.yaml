@@ -42,7 +42,7 @@ nagisa:
     value: v=spf1 a ip4:70.34.220.201 ~all
 s1._domainkey.nagisa.wavy.ws:
   type: TXT
-  value: v=DKIM1\\;h=sha256\\;k=rsa\\;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwiTT5S84P//C46J1CmVE6shJ9MiRdShLAr7wrPOLnt6yYKoYiDR8fyDUkAB7IJDCqMSt6Yddcsrkq2ReDpUaOR60C+ekCgnqB+FswddIrdxo56aUjtH+fXRuisRY/7F9ellYSBFynqM+V0TqMQzpaPw56A8WA+0K27ySnCzzUzS9e4VHQYI6pk7un39SKk4C+IEhSG7NXv3cym0gIzjuwvnUupVJXpyr2FoY3+wg6gncr/NLAPSTRmxHNoV4fUsVdzcnsH22jGBI6vsn/XSoiZfF+I6XnHMvtLogr+PMys+HxAM+ef/VipxoiaC5afaxXS8q3wxtdqL6arFeNdJu4QIDAQAB
+  value: v=DKIM1\;h=sha256\;k=rsa\;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwiTT5S84P//C46J1CmVE6shJ9MiRdShLAr7wrPOLnt6yYKoYiDR8fyDUkAB7IJDCqMSt6Yddcsrkq2ReDpUaOR60C+ekCgnqB+FswddIrdxo56aUjtH+fXRuisRY/7F9ellYSBFynqM+V0TqMQzpaPw56A8WA+0K27ySnCzzUzS9e4VHQYI6pk7un39SKk4C+IEhSG7NXv3cym0gIzjuwvnUupVJXpyr2FoY3+wg6gncr/NLAPSTRmxHNoV4fUsVdzcnsH22jGBI6vsn/XSoiZfF+I6XnHMvtLogr+PMys+HxAM+ef/VipxoiaC5afaxXS8q3wxtdqL6arFeNdJu4QIDAQAB
 sig1._domainkey:
   type: CNAME
   value: sig1.dkim.wavy.ws.at.icloudmailadmin.com.
