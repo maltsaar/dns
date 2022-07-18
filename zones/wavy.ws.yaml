@@ -39,7 +39,7 @@ nagisa:
     type: A
     value: 70.34.220.201
   - type: TXT
-    values:
+    value:
       - v=spf1 a ip4:70.34.220.201 ~all
 sig1._domainkey:
   type: CNAME
