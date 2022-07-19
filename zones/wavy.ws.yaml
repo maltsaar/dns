@@ -43,7 +43,7 @@ ldap:
   type: A
   value: 70.34.203.42
 
-# custom email
+# custom email start
 nagisa:
   - ttl: 120
     type: A
