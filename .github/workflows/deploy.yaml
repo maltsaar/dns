@@ -16,7 +16,7 @@ jobs:
 
       - uses: py-actions/py-dependency-install@v2
 
-      - run: octodns-sync --config-file=./config.yaml --doit
+      - run: octodns-sync --config-file=./config.yaml --doit --force
         env:
           CLOUDFLARE_EMAIL: ${{ secrets.CLOUDFLARE_EMAIL }}
           CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
