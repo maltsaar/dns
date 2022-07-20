@@ -34,6 +34,10 @@ list:
   ttl: 120
   type: A
   value: 70.34.203.42
+list-static:
+  ttl: 120
+  type: A
+  value: 70.34.203.42
 sso:
   ttl: 120
   type: A
