@@ -25,7 +25,7 @@ sig1._domainkey:
 ayanami:
   ttl: 120
   type: A
-  value: 95.211.186.220
+  value: v
 ibuki:
   ttl: 120
   type: CNAME
@@ -46,6 +46,10 @@ ldap:
   ttl: 120
   type: A
   value: 70.34.203.42
+media:
+  ttl: 120
+  type: A
+  value: 95.211.186.220
 
 # custom email start
 nagisa:
