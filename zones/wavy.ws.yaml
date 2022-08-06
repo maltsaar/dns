@@ -25,7 +25,7 @@ sig1._domainkey:
 ayanami:
   ttl: 120
   type: A
-  value: v
+  value: 95.211.186.220
 ibuki:
   ttl: 120
   type: CNAME
