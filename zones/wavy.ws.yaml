@@ -50,6 +50,10 @@ media:
   ttl: 120
   type: A
   value: 95.211.186.220
+media-proxy:
+  ttl: 120
+  type: A
+  value: 70.34.203.42
 
 # custom email start
 nagisa:
