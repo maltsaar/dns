@@ -7,7 +7,10 @@
 '*':
   - type: CAA
     ttl: 120
-    value: issue "letsencrypt.org"
+    value:
+      flags: 0
+      tag: issue
+      value: letsencrypt.org
     
 # icloud email start
   - type: MX
