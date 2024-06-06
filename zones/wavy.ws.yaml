@@ -4,6 +4,11 @@
     type: A
     value: 70.34.203.42
 
+'*':
+  - type: CAA
+    ttl: 120
+    value: issue "letsencrypt.org"
+    
 # icloud email start
   - type: MX
     values:
