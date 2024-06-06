@@ -22,19 +22,11 @@ sig1._domainkey:
   value: sig1.dkim.wavy.ws.at.icloudmailadmin.com.
 # icloud email end
 
-ayanami:
-  ttl: 120
-  type: A
-  value: 95.211.186.220
 ibuki:
   ttl: 120
   type: CNAME
   value: wavy.ws.
 list:
-  ttl: 120
-  type: A
-  value: 70.34.203.42
-list-static:
   ttl: 120
   type: A
   value: 70.34.203.42
@@ -46,7 +38,8 @@ ldap:
   ttl: 120
   type: A
   value: 70.34.203.42
-media:
+
+slan:
   ttl: 120
   type: A
-  value: 70.34.203.42
+  value: 70.34.198.30
