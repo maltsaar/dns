@@ -51,3 +51,8 @@ slan:
   ttl: 120
   type: A
   value: 70.34.198.30
+
+_atproto:
+  ttl: 120
+  type: TXT
+  value: did=did:plc:rgbjyewjov7gfkajq5os3la7
