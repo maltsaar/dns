@@ -11,10 +11,17 @@ providers:
 
   cloudflare:
     class: octodns_cloudflare.CloudflareProvider
-    email: env/CLOUDFLARE_EMAIL
     token: env/CLOUDFLARE_TOKEN
+    # Manage Page Rules (URLFWD) records
+    # I don't use this and Account API tokens don't support this anyway
+    pagerules: false
 
 zones:
+  maltsaar.ee.:
+    sources:
+      - zones
+    targets:
+      - cloudflare
   wavy.ws.:
     sources:
       - zones

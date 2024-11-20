@@ -1,2 +1,2 @@
-octodns==1.7.0
-octodns_cloudflare==0.0.6
+octodns==1.10.0
+octodns_cloudflare==0.0.7
