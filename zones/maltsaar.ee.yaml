@@ -19,7 +19,7 @@
 www:
   - ttl: 120
     type: CNAME
-    value: maltsaar.github.io
+    value: maltsaar.github.io.
 
 _github-pages-challenge-maltsaar.maltsaar.ee:
   - ttl: 120
