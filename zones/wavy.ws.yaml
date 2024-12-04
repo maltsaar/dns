@@ -46,6 +46,10 @@ ldap:
   ttl: 120
   type: A
   value: 70.34.203.42
+stream:
+  ttl: 120
+  type: A
+  value: 70.34.203.42
 
 slan:
   ttl: 120
