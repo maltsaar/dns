@@ -16,6 +16,20 @@
       - 2606:50c0:8002::153
       - 2606:50c0:8003::153
 
+  - type: MX
+    ttl: 120
+    values:
+      - exchange: route1.mx.cloudflare.net.
+        preference: 7
+      - exchange: route2.mx.cloudflare.net.
+        preference: 11
+      - exchange: route3.mx.cloudflare.net.
+        preference: 76
+
+  - ttl: 120
+    type: TXT
+    value: v=spf1 include:_spf.mx.cloudflare.net ~all
+
 www:
   - ttl: 120
     type: CNAME
