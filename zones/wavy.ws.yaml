@@ -49,7 +49,7 @@ ldap:
 kaizoku:
   ttl: 120
   type: A
-  value: 70.34.211.200
+  value: 64.176.71.195
 
 slan:
   ttl: 120
