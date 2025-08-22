@@ -46,10 +46,10 @@ ldap:
   ttl: 120
   type: A
   value: 70.34.203.42
-kaizoku:
+penpen:
   type: A
   ttl: 120
-  value: 64.176.71.195
+  value: 70.34.208.32
 
 slan:
   ttl: 120
