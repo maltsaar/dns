@@ -47,9 +47,12 @@ ldap:
   type: A
   value: 70.34.203.42
 kaizoku:
-  ttl: 120
-  type: A
-  value: 64.176.71.195
+  - type: A
+    ttl: 120
+    value: 64.176.71.195
+  - type: AAAA
+    ttl: 120
+    value: 2a05:f480:2400:1cff:5400:05ff:fe98:0f60
 
 slan:
   ttl: 120
