@@ -1,18 +1,18 @@
 ---
-'':
+"":
   - ttl: 120
     type: A
     value: 70.34.203.42
 
-'*':
+"*":
   - type: CAA
     ttl: 120
     value:
       flags: 0
       tag: issue
       value: letsencrypt.org
-    
-# icloud email start
+
+  # icloud email start
   - type: MX
     values:
       - exchange: mx01.mail.icloud.com.
