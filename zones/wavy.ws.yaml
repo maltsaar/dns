@@ -46,15 +46,30 @@ ldap:
   ttl: 120
   type: A
   value: 70.34.203.42
-kaizoku:
-  ttl: 120
+
+# nyaa-proxy
+penpen:
   type: A
-  value: 70.34.203.42
+  ttl: 120
+  value: 70.34.208.32
+adam:
+  type: A
+  ttl: 120
+  value: 104.238.189.164
+lilith:
+  type: A
+  ttl: 120
+  value: 70.34.245.166
 
 slan:
   ttl: 120
   type: A
   value: 70.34.198.30
+
+noname:
+  ttl: 120
+  type: A
+  value: 194.163.176.148
 
 _atproto.rabaolend:
   ttl: 120
