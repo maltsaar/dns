@@ -39,3 +39,19 @@ _github-pages-challenge-maltsaar.maltsaar.ee:
   - ttl: 120
     type: TXT
     value: 4f18faee0ae5569a4db574483902a5
+
+# mailchimp test
+k2._domainkey.maltsaar.ee:
+  - ttl: 120
+    type: CNAME
+    value: dkim2.mcsv.net.
+
+k3._domainkey.maltsaar.ee:
+  - ttl: 120
+    type: CNAME
+    value: dkim3.mcsv.net.
+
+_dmarc:
+  - ttl: 120
+    type: TXT
+    value: 'v=DMARC1\; p=none\;'
